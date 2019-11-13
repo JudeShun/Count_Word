@@ -30,10 +30,10 @@ import java.util.regex.Pattern;
 //    }
 //    
 //}
-public class FilterHTML {
+public class WordCount {
     
     
-    public String removeHTML(String str){
+    public String wordCount(String str){
          //GETTING THE TAGS OF THE WEBSITE
         ArrayList<String>tags = new ArrayList<>();
         //GETTING THE WORDS OF THE WEBSITE
@@ -115,6 +115,10 @@ public class FilterHTML {
    
          }
     return strs;  
+    }
+
+    public String wordcount(String str) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
 
